@@ -247,7 +247,7 @@ ul{
 
 /**/
 .showcase{/* Para modificar la primera imagen en este caso ----HOME--*/
-    width: 106%;
+    width: 220%;
     height: 612px;
     background: url('./img/Hom2.jpg') no-repeat center center/cover;
     background-position: 5cm;
@@ -390,6 +390,7 @@ ul{
 .btn:hover{
     opacity: .6;
 }
+
 
 .showcase h2{
     margin: 10px 0 20px 0;
@@ -599,15 +600,12 @@ ul{
 
 
 
-@media(max-width: 700px){
+@media(max-width: 460px){
 
     .nav-main{
         font-size: 16px;
-        display: flex;
-        /*justify-content: space-between;
-        align-items: center;
-        height: 30px;
-        padding: 0px ;*/
+        display: none;
+
     
         position: fixed; /*Apara que siga la imagen o backgraund*/
         top: 0;
@@ -647,28 +645,477 @@ ul{
 
     /* iMAGENS PARA CARACTERIZACION ECG -------------------------------------------------------------*/
 .nav-carac{
-    width: 350px;
+    width: 300px;
     padding: 20px;
     position: relative;
-    top: 50px;
-    left: 12px;
+    top: -10px;
+    left: 0px;
 }
 
 .nav-carac2{
-    width: 300px;
+    width: 280px;
     height: 350px;
     padding: 20px;
     position: relative;
-    top: -380px;
-    left: 750px;
-    display: none;
+    top: -25px;
+    left: 0px;
+
 }
 
 .nav-carac3{
-    width: 350px;
+    width: 300px;
     padding: 20px;
     position: relative;
-    top: 50px;
-    left: 400px;
+    top: -50px;
+    left: 0px;
 }
+
+/* iMAGENS PARA  sistema de adquisición -------------------------------------------------------------*/
+
+.nav-adq{
+    width: 200px;
+    padding: 10px;
+    position: relative;
+    top: 1200px;
+    left: 0px;
+}
+.nav-adq2{
+    width: 200px;
+    padding: 10px;
+    position: relative;
+    top: 1220px;
+    left: 0px;
+}
+.nav-adq3{
+    width: 350px;
+    padding: 10px;
+    position: relative;
+    top: 600px;
+    left: 0px;
+}
+
+/* iMAGENS PARA  Sistema fumigacion -------------------------------------------------------------*/
+
+.nav-fun1{
+    width: 250px;
+    padding: 0px;
+    position: relative;
+    top: 2700px;
+    left: 0px;
+}
+
+.nav-fun2{
+    width: 250px;
+    padding: 10px;
+    position: relative;
+    top: 2700px;
+    left: 0px;
+}
+
+
+
+/* iMAGENS PARA  MAQUINA CORTE DE TALLOS -------------------------------------------------------------*/
+.nav-tall{
+    width: 250px;
+    padding: 10px;
+    position: relative;
+    top: 3680px;
+    left: 0px;
+}
+
+.nav-tall1{
+    width: 250px;
+    padding: 10px;
+    position: relative;
+    top: 3690px;
+    left: 0px;
+}
+
+/* iMAGENS PARA  MAQUINA extratora de rsortes-------------------------------------------------------------*/
+
+.nav-ext{
+    width: 250px;
+    padding: 10px;
+    position: relative;
+    top: 4470px;
+    left: 0px;
+}
+
+.nav-ext2{
+    width: 250px;
+    padding: 10px;
+    position: relative;
+    top: 4470px;
+    left: 0px;
+}
+
+.nav-ext3{
+    width: 250px;
+    padding: 10px;
+    position: relative;
+    top: 4470px;
+    left: 0px;
+}
+
+/* iMAGENS PARA  INDUSTR 4.0 -------------------------------------------------------------*/
+.nav-ind{
+    width: 250px;
+    padding: 10px;
+    position: relative;
+    top: 5280px;
+    left: 9px;
+}
+
+.nav-ind2{
+    width: 250px;
+    padding: 10px;
+    position: relative;
+    top: 5280px;
+    left: 0px;
+}
+
+.nav-ind3{
+    width: 250px;
+    padding: 10px;
+    position: relative;
+    top: 5280px;
+    left: 0px;
+}
+
+/* iMAGENS PARA  MAQUINA CORTE DE TALLOS -------------------------------------------------------------*/
+
+.nav-par{
+    width: 250px;
+    padding: 10px;
+    position: relative;
+    top: 6500px;
+    left: 0px;
+}
+
+.nav-par2{
+    width: 250px;
+    padding: 10px;
+    position: relative;
+    top: 6500px;
+    left: 0px;
+}
+
+
+.showcase{/* Para modificar la primera imagen en este caso ----HOME--*/
+    width: 100%;
+    height: 612px;
+    background: url('./img/Hom2.jpg') no-repeat center center/cover;
+    background-position: 0cm;
+    margin-bottom: 10px;
+
+}
+.showcase h2{
+    margin: 10px 0 20px 0;
+    position: relative; /*para mover los textos de los home about etc-- */
+    color: #232526;
+    top: 10px;
+    left: 0px
+}
+.showcase p{
+    margin: 10px 0 20px 0;
+    position: relative; /*para mover los textos de los home about etc-- */
+    color: #232526;
+    top: 10px;
+    left: 0px
+}
+
+/*cards Banner one Adquisicion de datos*/
+
+.cards-banner-one{
+    width: 100%;
+    height: 612px;
+    background: url('./img/Ab3.jpg') no-repeat center/cover;
+    background-position: 0cm;
+    margin-bottom: 10px;
+}
+.cards-banner-one .content{
+    width: 100%;
+    padding: 90px 0 0 30px;
+    color: #232526;
+}
+.cards-banner-one p{
+    width: 100%;
+    position: relative; /*para mover los textos de los home about etc-- */
+    top: 1200px;
+    left: 0px
+}
+.cards-banner-one h2{
+    margin: 10px 0 20px 0;
+    position: relative; /*para mover los textos de los home about etc-- */
+    top: 1200px;
+    left: 0px
+    
+    
+}
+
+/*LOS NUEVOS BANNERS PAPU ----------------*/
+
+/*cards Banner one1 Automatizacion fumigacio*/
+.cards-banner-one1{
+    width: 100%;
+    height: 612px;
+    background: url('./img/Hom1.jpg') no-repeat center/cover;
+    background-position: 0cm;
+    margin-bottom: 10px;
+}
+.cards-banner-one1 .content{
+    width: 100%;
+    padding: 90px 0 0 30px;
+    color: #232526;
+}
+.cards-banner-one1 p{
+    position: relative; /*para mover los textos de los home about etc-- */
+    top: 2700px;
+    left: 0px
+}
+.cards-banner-one1 h2{
+    margin: 10px 0 20px 0;
+    position: relative; /*para mover los textos de los home about etc-- */
+    top: 2700px;
+    left: 0px
+}
+/*cards Banner one2 MAquina para cortar tallos */
+.cards-banner-one2{
+    width: 100%;
+    height: 612px;
+    background: url('./img/Ab2.png') no-repeat center/cover;
+    background-position: 0cm;
+    margin-bottom: 10px;
+}
+.cards-banner-one2 .content{
+    width: 100%;
+    padding: 90px 0 0 30px;
+    color: #232526;
+    
+}
+.cards-banner-one2 p{
+    margin: 10px 0 20px 0;
+    position: relative; /*para mover los textos de los home about etc-- */
+    top: 3700px;
+    left: 0px;
+
+}
+.cards-banner-one2 h2{
+    margin: 10px 0 20px 0;
+    position: relative; /*para mover los textos de los home about etc-- */
+    top: 3700px;
+    left: 0px;
+}
+/*cards Banner one3 extractor de amortiguadores*/
+.cards-banner-one3{
+    width: 100%;
+    height: 612px;
+    background: url('./img/banne.png') no-repeat center/cover;
+    background-position: 0cm;
+    margin-bottom: 10px;
+}
+.cards-banner-one3 .content{
+    width: 100%;
+    padding: 90px 0 0 30px;
+    color: #232526;
+}
+.cards-banner-one3 p{
+    margin: 10px 0 20px 0;
+    position: relative; /*para mover los textos de los home about etc-- */
+    top: 4500px;
+    left: 0px
+}
+.cards-banner-one3 h2{
+    margin: 10px 0 20px 0;
+    position: relative; /*para mover los textos de los home about etc-- */
+    top: 4500px;
+    left: 0px
+}
+/*cards Banner one3 industria 4.0*/
+
+.cards-banner-one4{
+    width: 100%;
+    height: 612px;
+    background: url('./img/banne.png') no-repeat center/cover;
+    background-position: 0cm;
+    margin-bottom: 10px;
+}
+.cards-banner-one4 .content{
+    width: 96%;
+    padding: 90px 0 0 30px;
+    color: #232526;
+}
+.cards-banner-one4 p{
+    margin: 10px 0 20px 0;
+    position: relative; /*para mover los textos de los home about etc-- */
+    top: 5300px;
+    left: 0px
+}
+.cards-banner-one4 h2{
+    margin: 10px 0 20px 0;
+    position: relative; /*para mover los textos de los home about etc-- */
+    top: 5300px;
+    left: 0px
+}
+
+/*cards Banner one Parquedero de bicis*/
+.cards-banner-one6{
+    width: 100%;
+    height: 612px;
+    background: url('./img/banne.png') no-repeat center/cover;
+    background-position: 0cm;
+    margin-bottom: 10px;
+}
+.cards-banner-one6 .content{
+    width:96%;
+    padding: 90px 0 0 30px;
+    color: #232526;
+}
+.cards-banner-one6 p{
+    margin: 10px 0 20px 0;
+    position: relative; /*para mover los textos de los home about etc-- */
+    top: 6500px;
+    left: 0px
+}
+.cards-banner-one6 h2{
+    margin: 10px 0 20px 0;
+    position: relative; /*para mover los textos de los home about etc-- */
+    top: 6500px;
+    left: 0px
+}
+
+
+/* Boton PARA CARACTERIZACION ECG -------------------------------------------------------------*/
+.btn{
+    cursor: pointer;
+    display: none;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #616161;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 1px 10px;
+
+    position: relative; /*para mover los textos de los home about etc-- */
+    top: 400px;
+    left: 600px;     
+}
+
+/* Boton sistema Automático de corte -------------------------------------------------------------*/
+.btn1{
+    cursor: pointer;
+    display: none;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #616161;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 1px 10px;
+
+    position: relative; /*para mover los textos de los home about etc-- */
+    top: 1350px;
+    left: 550px;  
+}
+/* Boton Adquisicion de datos -------------------------------------------------------------*/
+.btn2{
+    cursor: pointer;
+    display: none;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #616161;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 1px 10px;
+
+    position: relative; /*para mover los textos de los home about etc-- */
+    top: 650px;
+    left: 550px;
+ 
+}
+/* Autimatizacion proceso de fumigacion-------------------------------------------------------------*/
+.btn3{
+    cursor: pointer;
+    display: none;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #616161;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 1px 10px;
+
+    position: relative; /*para mover los textos de los home about etc-- */
+    top: 1130px;
+    left: 560px;
+    
+}
+/* Boton maquina extratora de amortiguadores -------------------------------------------------------------*/
+.btn4{
+    cursor: pointer;
+    display: none;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #616161;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 1px 10px;
+
+    position: relative; /*para mover los textos de los home about etc-- */
+    top: 1750px;
+    left: 600px;     
+}
+/* Boton plan de mantenimiento 4.0-------------------------------------------------------------*/
+.btn5{
+    cursor: pointer;
+    display: none;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #616161;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 1px 10px;
+
+    position: relative; /*para mover los textos de los home about etc-- */
+    top: 2100px;
+    left: 600px;     
+}
+/* Boton Parqueadero bicletas autosustentable -------------------------------------------------------------*/
+.btn6{
+    cursor: pointer;
+    display: block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #616161;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 1px 10px;
+
+    position: relative; /*para mover los textos de los home about etc-- */
+    top: 7000px;
+    left: 0px;     
+}
+
+
+.btn1:hover,
+.btn2:hover,
+.btn3:hover,
+.btn4:hover,
+.btn5:hover,
+.btn6:hover{
+    opacity: .6;
+}
+
 }

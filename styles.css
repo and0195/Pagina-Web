@@ -51,7 +51,7 @@ ul{
 }
 
 .nav-skill{
-    width: 600px;
+    width: 440px;
     padding: 20px;
     position: relative;
     top: -150px;
@@ -122,7 +122,7 @@ hr{
 }
 .btn1{
     cursor: pointer;
-    display: inline-block;
+    display: none;
     border: 0;
     font-weight: bold;
     padding: 10px 20px;
@@ -133,8 +133,8 @@ hr{
     margin: 1px 10px;
 
     position: relative; /*para mover los textos de los home about etc-- */
-    top: 290px;
-    left: 300px;  
+    top: 200px;
+    left: 650px;  
 }
 
 .btn2{
@@ -210,7 +210,7 @@ hr{
     left: 300px
 }
 .showcase p{
-    width: 100%;
+    width: 40%;
     position: relative; /*para mover los textos de los home about etc-- */
     top: 160px;
     left: 300px
@@ -253,11 +253,7 @@ hr{
     background: url('./img/Ab4.jpg') no-repeat center/cover;
     background-position: 5cm;
     margin-bottom: 10px;
-    /*padding: 50px;
-    display:flex;
-    flex-direction: column;
-    align-items: center  ;
-    justify-content: flex-end;/*/
+
 }
 .cards-banner-one .content{
     width: 40%;
@@ -351,35 +347,47 @@ hr{
     left: 190px
 }
 
-@media(max-width: 700px){
-    .nav-skill{
-        width: 300px;
-        padding: 20px;
-        position: relative;
-        top: -150px;
-        left: 162px;
+
+
+@media(max-width: 600px){
+
+    .nav-main{
+        font-size: 16px;
+        display: none;
+        /*justify-content: space-between;
+        align-items: center;
+        height: 30px;
+        padding: 0px ;*/
+    
+        position: fixed; /*Apara que siga la imagen o backgraund*/
+        top: 0;
+        left: 0%;
+        background: #232526;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+        opacity: .7;
+    
+        
     }
 
-    .btn1,
-    .btn,
-    .btn2,
-    .btn3,
-    .btn4{
-        cursor: pointer;
-        
-        border: 0;
-        font-weight: bold;
-        padding: 10px 20px;
-        background: #fff5f5;
-        color: rgb(0, 0, 0);
-        font-size: 15px;
-        border: 1px solid rgb(0, 0, 0);
-        margin: 1px 10px;
+    .nav-skill{
+        width: 250px;
+        padding: 20px;
+        position: relative;
+        top: -100px;
+        left: -30px;
+    }
     
-        position: relative; /*para mover los textos de los home about etc-- */
-        top: 20px;
-        left: 10px;
-        display: none;     
+
+    .showcase{/* Para modificar la primera imagen en este caso ----HOME--*/
+        width: 100%;
+        height: 612px;
+        background: url('./img/Hom2.jpg') no-repeat center center/cover;
+        background-position: 0cm;
+        margin-bottom: 10px;
+    
     }
 
     .showcase h2{
@@ -387,13 +395,200 @@ hr{
         width: 100%;
         position: relative; /*para mover los textos de los home about etc-- */
         top: 150px;
-        left: 300px
+        left: 0px
     }
     .showcase p{
-        width: 60%;
+        width: 100%;
         position: relative; /*para mover los textos de los home about etc-- */
-        top: 150px;
-        left: 220px
+        top: 160px;
+        left: 0px
     }
+
+    /*cards Banner one  Mecatronica About--------------------------------------       */
+
+.cards-banner-one{
+    width: 100%;
+    height: 612px;
+    background: url('./img/Ab4.jpg') no-repeat center/cover;
+    background-position: 0cm;
+    margin-bottom: 10px;
+
+}
+.cards-banner-one .content{
+    width: 100%;
+    padding: 90px 0 0 30px;
+    color: #222526
+}
+.cards-banner-one p,
+.cards-banner-one h2{
+    margin: 10px 0 20px 0;
+    position: relative; /*para mover los textos de los home about etc-- */
+    top: -70px;
+    left: 0px
+}
+
+/*cards Banner one1 Proyevtos---------------------------------------------------------*/
+.cards-banner-one1{
+    width: 100%;
+    height: 612px;
+    background: url('./img/Hom1.jpg') no-repeat center/cover;
+    background-position: 0cm;
+    margin-bottom: 10px;
+
+}
+.cards-banner-one1 .content{
+    width: 100%;
+    padding: 90px 0 0 30px;
+    color: #222526
+}
+.cards-banner-one1 p,
+.cards-banner-one1 h2{
+    margin: 10px 0 20px 0;
+    position: relative; /*para mover los textos de los home about etc-- */
+    top: -70px;
+    left: 0px
+}
+/*cards Banner one2 MIs skills ----------------------------.........................*/
+.cards-banner-one2{
+    width: 100%;
+    height: 612px;
+    background: url('./img/Ab2.png') no-repeat center/cover;
+    background-position: 0cm;
+    margin-bottom: 10px;
+
+}
+.cards-banner-one2 .content{
+    width: 100%;
+    padding: 90px 0 0 30px;
+    color: #222526
+    
+}
+.cards-banner-one2 p,
+.cards-banner-one2 h2{
+    margin: 10px 0 20px 0;
+    position: relative; /*para mover los textos de los home about etc-- */
+    top: -70px;
+    left: 0px;
+}
+/*cards Banner one3 contacto -------------------------------------------------------------------------*/
+.cards-banner-one3{
+    width: 100%;
+    height: 612px;
+    background: url('./img/banne.png') no-repeat center/cover;
+    background-position: 0cm;
+    margin-bottom: 10px;
+
+}
+.cards-banner-one3 .content{
+    width: 100%;
+    padding: 90px 0 0 30px;
+    color:#adadad;
+}
+.cards-banner-one3 p,
+.cards-banner-one3 h2{
+    margin: 10px 0 20px 0;
+    position: relative; /*para mover los textos de los home about etc-- */
+    top: -70px;
+    left: 0px
+}
+
+.btn{
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #616161;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 1px 10px;
+
+    position: relative; /*para mover los textos de los home about etc-- */
+    top: 200px;
+    left: 30px;     
+}
+.btn1{
+    cursor: pointer;
+    display: none;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #616161;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 1px 10px;
+
+    position: relative; /*para mover los textos de los home about etc-- */
+    top: 170px;
+    left: 30px;  
+}
+
+.btn2{
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #616161;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 1px 10px;
+
+    position: relative; /*para mover los textos de los home about etc-- */
+    top: -70px;
+    left: 30px;
  
+}
+
+.btn3{
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #616161;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 1px 10px;
+
+    position: relative; /*para mover los textos de los home about etc-- */
+    top: -30px;
+    left: 30px;
+    
+}
+
+.btn4{
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #616161;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 1px 10px;
+
+    position: relative; /*para mover los textos de los home about etc-- */
+    top: -20px;
+    left: 30px;     
+}
+
+
+.btn1:hover,
+.btn2:hover,
+.btn3:hover,
+.btn4:hover{
+    opacity: .6;
+}
+
+.btn:hover{
+    opacity: .6;
+}
+
+
 }
